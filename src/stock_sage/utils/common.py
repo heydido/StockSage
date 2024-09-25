@@ -1,8 +1,8 @@
 import sys
 from functools import wraps
 
-from src.project_name.logger import logging
-from src.project_name.exception import CustomException
+from src.stock_sage.logger import logging
+from src.stock_sage.exception import CustomException
 
 
 def exception_handler(func: callable) -> callable:
